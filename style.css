@@ -1,0 +1,83 @@
+*{
+      margin: 0;
+      padding: 0;    
+}
+
+.maindiv{
+      padding: 3% 9%;
+}
+
+.selectOption{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      margin-bottom: 1rem;
+      
+}
+.selectOption select{
+      width: 30%;
+      padding: 10px;
+      outline: none;
+      border: 1px solid #333;
+      border-radius: 5px;
+      background: transparent;
+}
+
+.rating{
+      outline: none;
+      padding: 10px;
+      border-radius: 5px;
+      width: 100%;
+      border: 1px solid #333;
+      background: transparent;
+      margin-bottom: 1rem;
+      
+}
+.mainDataLit{
+      
+      padding: .5% 9%;
+}
+.header{
+      display: flex;
+      border-bottom: 1px solid #333;
+      padding: 10px 0px;
+}
+.header .rank{
+      width: 10%;
+}
+.movie{
+      width: 80%;
+
+}
+.movieItem{
+      display: flex;
+      align-items: center;
+      padding: 10px;
+}
+.indexNumber{
+      width: 10%;
+}
+.movieImg{
+      margin-right: 1rem;
+
+}
+.detailBox{
+      width: 75%;
+
+}
+.title{
+      color: green;
+      font-size: 14px;
+}
+.subheading{
+      display: flex;
+      gap: 1rem;
+      margin-top: .5rem;
+}
+.subheading span{
+      font-size: 10px;
+      border: 1px solid #333;
+      border-radius: 4px;
+      padding: 3px;
+}
